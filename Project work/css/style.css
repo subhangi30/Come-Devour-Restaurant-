@@ -156,6 +156,10 @@ button:focus{
 /*------------------------------------------------------------------
     HEADER
 -------------------------------------------------------------------*/
+.logo{
+    width: 15%;
+    height: 15%;
+}
 .top-navbar{
 	position: relative;
 	z-index: 10;
@@ -209,6 +213,15 @@ button:focus{
 }
 .navbar-light .navbar-toggler:hover{
 	background: #d65106;
+}
+.page-breadcrumb .container p{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(204, 204, 204, 0.534);
+}
+.page-breadcrumb .container h1{
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 /*------------------------------------------------------------------
